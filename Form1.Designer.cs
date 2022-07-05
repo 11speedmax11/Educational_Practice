@@ -50,7 +50,7 @@ namespace Educational_Practice
             this.Color = new System.Windows.Forms.CheckBox();
             this.Chroma = new System.Windows.Forms.Label();
             this.MaxRollDiameter = new System.Windows.Forms.Label();
-            this.more = new System.Windows.Forms.CheckBox();
+            this.More = new System.Windows.Forms.CheckBox();
             this.Less = new System.Windows.Forms.CheckBox();
             this.Sheet = new System.Windows.Forms.CheckBox();
             this.Roll = new System.Windows.Forms.CheckBox();
@@ -71,8 +71,25 @@ namespace Educational_Practice
             this.Small = new System.Windows.Forms.CheckBox();
             this.NumberCartridges = new System.Windows.Forms.Label();
             this.Large = new System.Windows.Forms.CheckBox();
-            this.Select = new System.Windows.Forms.Button();
+            this.Selects = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
+            this.Cloth = new System.Windows.Forms.CheckBox();
+            this.Paper = new System.Windows.Forms.CheckBox();
+            this.Materials = new System.Windows.Forms.Label();
+            this.Products = new System.Windows.Forms.Label();
+            this.OK = new System.Windows.Forms.CheckBox();
+            this.Nevsky = new System.Windows.Forms.CheckBox();
+            this.Raster = new System.Windows.Forms.CheckBox();
+            this.Glow = new System.Windows.Forms.CheckBox();
+            this.Graphics = new System.Windows.Forms.CheckBox();
+            this.RPK = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Placard = new System.Windows.Forms.CheckBox();
+            this.Banners = new System.Windows.Forms.CheckBox();
+            this.Drawings = new System.Windows.Forms.CheckBox();
+            this.Tshirts = new System.Windows.Forms.CheckBox();
+            this.Flags = new System.Windows.Forms.CheckBox();
+            this.Posters = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +97,7 @@ namespace Educational_Practice
             // Manufacturer
             // 
             this.Manufacturer.AutoSize = true;
-            this.Manufacturer.Location = new System.Drawing.Point(710, 9);
+            this.Manufacturer.Location = new System.Drawing.Point(589, 9);
             this.Manufacturer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Manufacturer.Name = "Manufacturer";
             this.Manufacturer.Size = new System.Drawing.Size(122, 20);
@@ -91,7 +108,7 @@ namespace Educational_Practice
             // 
             this.HP.AutoSize = true;
             this.HP.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HP.Location = new System.Drawing.Point(841, 66);
+            this.HP.Location = new System.Drawing.Point(720, 66);
             this.HP.Name = "HP";
             this.HP.Size = new System.Drawing.Size(42, 19);
             this.HP.TabIndex = 6;
@@ -102,7 +119,7 @@ namespace Educational_Practice
             // 
             this.Epson.AutoSize = true;
             this.Epson.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Epson.Location = new System.Drawing.Point(721, 66);
+            this.Epson.Location = new System.Drawing.Point(600, 66);
             this.Epson.Name = "Epson";
             this.Epson.Size = new System.Drawing.Size(58, 19);
             this.Epson.TabIndex = 7;
@@ -113,7 +130,7 @@ namespace Educational_Practice
             // 
             this.Canon.AutoSize = true;
             this.Canon.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Canon.Location = new System.Drawing.Point(721, 41);
+            this.Canon.Location = new System.Drawing.Point(600, 41);
             this.Canon.Name = "Canon";
             this.Canon.Size = new System.Drawing.Size(61, 19);
             this.Canon.TabIndex = 8;
@@ -124,7 +141,7 @@ namespace Educational_Practice
             // 
             this.Roland.AutoSize = true;
             this.Roland.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Roland.Location = new System.Drawing.Point(721, 91);
+            this.Roland.Location = new System.Drawing.Point(600, 91);
             this.Roland.Name = "Roland";
             this.Roland.Size = new System.Drawing.Size(63, 19);
             this.Roland.TabIndex = 9;
@@ -135,7 +152,7 @@ namespace Educational_Practice
             // 
             this.Mimaki.AutoSize = true;
             this.Mimaki.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Mimaki.Location = new System.Drawing.Point(841, 41);
+            this.Mimaki.Location = new System.Drawing.Point(720, 41);
             this.Mimaki.Name = "Mimaki";
             this.Mimaki.Size = new System.Drawing.Size(66, 19);
             this.Mimaki.TabIndex = 10;
@@ -145,7 +162,7 @@ namespace Educational_Practice
             // PrintFormat
             // 
             this.PrintFormat.AutoSize = true;
-            this.PrintFormat.Location = new System.Drawing.Point(710, 201);
+            this.PrintFormat.Location = new System.Drawing.Point(589, 201);
             this.PrintFormat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PrintFormat.Name = "PrintFormat";
             this.PrintFormat.Size = new System.Drawing.Size(67, 20);
@@ -156,7 +173,7 @@ namespace Educational_Practice
             // 
             this.AZiroPlus.AutoSize = true;
             this.AZiroPlus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AZiroPlus.Location = new System.Drawing.Point(721, 233);
+            this.AZiroPlus.Location = new System.Drawing.Point(600, 233);
             this.AZiroPlus.Name = "AZiroPlus";
             this.AZiroPlus.Size = new System.Drawing.Size(48, 19);
             this.AZiroPlus.TabIndex = 12;
@@ -167,7 +184,7 @@ namespace Educational_Practice
             // 
             this.AOne.AutoSize = true;
             this.AOne.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AOne.Location = new System.Drawing.Point(721, 258);
+            this.AOne.Location = new System.Drawing.Point(600, 258);
             this.AOne.Name = "AOne";
             this.AOne.Size = new System.Drawing.Size(40, 19);
             this.AOne.TabIndex = 13;
@@ -178,7 +195,7 @@ namespace Educational_Practice
             // 
             this.AZiro.AutoSize = true;
             this.AZiro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AZiro.Location = new System.Drawing.Point(841, 233);
+            this.AZiro.Location = new System.Drawing.Point(720, 233);
             this.AZiro.Name = "AZiro";
             this.AZiro.Size = new System.Drawing.Size(40, 19);
             this.AZiro.TabIndex = 14;
@@ -189,7 +206,7 @@ namespace Educational_Practice
             // 
             this.ATwo.AutoSize = true;
             this.ATwo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ATwo.Location = new System.Drawing.Point(841, 258);
+            this.ATwo.Location = new System.Drawing.Point(720, 258);
             this.ATwo.Name = "ATwo";
             this.ATwo.Size = new System.Drawing.Size(40, 19);
             this.ATwo.TabIndex = 15;
@@ -199,7 +216,7 @@ namespace Educational_Practice
             // Type
             // 
             this.Type.AutoSize = true;
-            this.Type.Location = new System.Drawing.Point(710, 294);
+            this.Type.Location = new System.Drawing.Point(589, 294);
             this.Type.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Type.Name = "Type";
             this.Type.Size = new System.Drawing.Size(35, 20);
@@ -210,7 +227,7 @@ namespace Educational_Practice
             // 
             this.Solvent.AutoSize = true;
             this.Solvent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Solvent.Location = new System.Drawing.Point(841, 328);
+            this.Solvent.Location = new System.Drawing.Point(720, 328);
             this.Solvent.Name = "Solvent";
             this.Solvent.Size = new System.Drawing.Size(99, 19);
             this.Solvent.TabIndex = 21;
@@ -221,7 +238,7 @@ namespace Educational_Practice
             // 
             this.Textile.AutoSize = true;
             this.Textile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Textile.Location = new System.Drawing.Point(721, 378);
+            this.Textile.Location = new System.Drawing.Point(600, 378);
             this.Textile.Name = "Textile";
             this.Textile.Size = new System.Drawing.Size(97, 19);
             this.Textile.TabIndex = 20;
@@ -232,7 +249,7 @@ namespace Educational_Practice
             // 
             this.Inkjet.AutoSize = true;
             this.Inkjet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Inkjet.Location = new System.Drawing.Point(721, 328);
+            this.Inkjet.Location = new System.Drawing.Point(600, 328);
             this.Inkjet.Name = "Inkjet";
             this.Inkjet.Size = new System.Drawing.Size(80, 19);
             this.Inkjet.TabIndex = 19;
@@ -243,7 +260,7 @@ namespace Educational_Practice
             // 
             this.Latex.AutoSize = true;
             this.Latex.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Latex.Location = new System.Drawing.Point(721, 353);
+            this.Latex.Location = new System.Drawing.Point(600, 353);
             this.Latex.Name = "Latex";
             this.Latex.Size = new System.Drawing.Size(85, 19);
             this.Latex.TabIndex = 18;
@@ -254,7 +271,7 @@ namespace Educational_Practice
             // 
             this.Sublimation.AutoSize = true;
             this.Sublimation.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Sublimation.Location = new System.Drawing.Point(841, 353);
+            this.Sublimation.Location = new System.Drawing.Point(720, 353);
             this.Sublimation.Name = "Sublimation";
             this.Sublimation.Size = new System.Drawing.Size(125, 19);
             this.Sublimation.TabIndex = 17;
@@ -265,7 +282,7 @@ namespace Educational_Practice
             // 
             this.Monochrome.AutoSize = true;
             this.Monochrome.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Monochrome.Location = new System.Drawing.Point(841, 442);
+            this.Monochrome.Location = new System.Drawing.Point(720, 442);
             this.Monochrome.Name = "Monochrome";
             this.Monochrome.Size = new System.Drawing.Size(108, 19);
             this.Monochrome.TabIndex = 24;
@@ -276,7 +293,7 @@ namespace Educational_Practice
             // 
             this.Color.AutoSize = true;
             this.Color.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Color.Location = new System.Drawing.Point(721, 442);
+            this.Color.Location = new System.Drawing.Point(600, 442);
             this.Color.Name = "Color";
             this.Color.Size = new System.Drawing.Size(71, 19);
             this.Color.TabIndex = 23;
@@ -286,7 +303,7 @@ namespace Educational_Practice
             // Chroma
             // 
             this.Chroma.AutoSize = true;
-            this.Chroma.Location = new System.Drawing.Point(710, 410);
+            this.Chroma.Location = new System.Drawing.Point(589, 410);
             this.Chroma.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Chroma.Name = "Chroma";
             this.Chroma.Size = new System.Drawing.Size(85, 20);
@@ -296,29 +313,29 @@ namespace Educational_Practice
             // MaxRollDiameter
             // 
             this.MaxRollDiameter.AutoSize = true;
-            this.MaxRollDiameter.Location = new System.Drawing.Point(710, 479);
+            this.MaxRollDiameter.Location = new System.Drawing.Point(589, 547);
             this.MaxRollDiameter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MaxRollDiameter.Name = "MaxRollDiameter";
             this.MaxRollDiameter.Size = new System.Drawing.Size(243, 20);
             this.MaxRollDiameter.TabIndex = 25;
             this.MaxRollDiameter.Text = "Максимальный диаметр рулона";
             // 
-            // more
+            // More
             // 
-            this.more.AutoSize = true;
-            this.more.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.more.Location = new System.Drawing.Point(841, 512);
-            this.more.Name = "more";
-            this.more.Size = new System.Drawing.Size(52, 19);
-            this.more.TabIndex = 27;
-            this.more.Text = "≥150";
-            this.more.UseVisualStyleBackColor = true;
+            this.More.AutoSize = true;
+            this.More.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.More.Location = new System.Drawing.Point(720, 580);
+            this.More.Name = "More";
+            this.More.Size = new System.Drawing.Size(52, 19);
+            this.More.TabIndex = 27;
+            this.More.Text = "≥150";
+            this.More.UseVisualStyleBackColor = true;
             // 
             // Less
             // 
             this.Less.AutoSize = true;
             this.Less.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Less.Location = new System.Drawing.Point(721, 512);
+            this.Less.Location = new System.Drawing.Point(600, 580);
             this.Less.Name = "Less";
             this.Less.Size = new System.Drawing.Size(52, 19);
             this.Less.TabIndex = 26;
@@ -329,7 +346,7 @@ namespace Educational_Practice
             // 
             this.Sheet.AutoSize = true;
             this.Sheet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Sheet.Location = new System.Drawing.Point(841, 584);
+            this.Sheet.Location = new System.Drawing.Point(717, 515);
             this.Sheet.Name = "Sheet";
             this.Sheet.Size = new System.Drawing.Size(76, 19);
             this.Sheet.TabIndex = 30;
@@ -340,7 +357,7 @@ namespace Educational_Practice
             // 
             this.Roll.AutoSize = true;
             this.Roll.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Roll.Location = new System.Drawing.Point(721, 584);
+            this.Roll.Location = new System.Drawing.Point(597, 515);
             this.Roll.Name = "Roll";
             this.Roll.Size = new System.Drawing.Size(79, 19);
             this.Roll.TabIndex = 29;
@@ -350,7 +367,7 @@ namespace Educational_Practice
             // Print
             // 
             this.Print.AutoSize = true;
-            this.Print.Location = new System.Drawing.Point(710, 551);
+            this.Print.Location = new System.Drawing.Point(586, 482);
             this.Print.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Print.Name = "Print";
             this.Print.Size = new System.Drawing.Size(60, 20);
@@ -361,7 +378,7 @@ namespace Educational_Practice
             // 
             this.WiFiModule.AutoSize = true;
             this.WiFiModule.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.WiFiModule.Location = new System.Drawing.Point(721, 655);
+            this.WiFiModule.Location = new System.Drawing.Point(909, 43);
             this.WiFiModule.Name = "WiFiModule";
             this.WiFiModule.Size = new System.Drawing.Size(98, 19);
             this.WiFiModule.TabIndex = 36;
@@ -372,7 +389,7 @@ namespace Educational_Practice
             // 
             this.USBFlashDrive.AutoSize = true;
             this.USBFlashDrive.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.USBFlashDrive.Location = new System.Drawing.Point(841, 705);
+            this.USBFlashDrive.Location = new System.Drawing.Point(1029, 93);
             this.USBFlashDrive.Name = "USBFlashDrive";
             this.USBFlashDrive.Size = new System.Drawing.Size(125, 19);
             this.USBFlashDrive.TabIndex = 35;
@@ -383,7 +400,7 @@ namespace Educational_Practice
             // 
             this.USBPC.AutoSize = true;
             this.USBPC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.USBPC.Location = new System.Drawing.Point(841, 655);
+            this.USBPC.Location = new System.Drawing.Point(1029, 43);
             this.USBPC.Name = "USBPC";
             this.USBPC.Size = new System.Drawing.Size(162, 19);
             this.USBPC.TabIndex = 34;
@@ -394,7 +411,7 @@ namespace Educational_Practice
             // 
             this.LAN.AutoSize = true;
             this.LAN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LAN.Location = new System.Drawing.Point(841, 680);
+            this.LAN.Location = new System.Drawing.Point(1029, 68);
             this.LAN.Name = "LAN";
             this.LAN.Size = new System.Drawing.Size(162, 19);
             this.LAN.TabIndex = 33;
@@ -405,7 +422,7 @@ namespace Educational_Practice
             // 
             this.WiFiDirect.AutoSize = true;
             this.WiFiDirect.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.WiFiDirect.Location = new System.Drawing.Point(721, 680);
+            this.WiFiDirect.Location = new System.Drawing.Point(909, 68);
             this.WiFiDirect.Name = "WiFiDirect";
             this.WiFiDirect.Size = new System.Drawing.Size(88, 19);
             this.WiFiDirect.TabIndex = 32;
@@ -415,7 +432,7 @@ namespace Educational_Practice
             // Connection
             // 
             this.Connection.AutoSize = true;
-            this.Connection.Location = new System.Drawing.Point(710, 621);
+            this.Connection.Location = new System.Drawing.Point(898, 9);
             this.Connection.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Connection.Name = "Connection";
             this.Connection.Size = new System.Drawing.Size(111, 20);
@@ -426,7 +443,7 @@ namespace Educational_Practice
             // 
             this.AirPrint.AutoSize = true;
             this.AirPrint.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AirPrint.Location = new System.Drawing.Point(721, 705);
+            this.AirPrint.Location = new System.Drawing.Point(909, 93);
             this.AirPrint.Name = "AirPrint";
             this.AirPrint.Size = new System.Drawing.Size(66, 19);
             this.AirPrint.TabIndex = 37;
@@ -436,7 +453,7 @@ namespace Educational_Practice
             // Price
             // 
             this.Price.AutoSize = true;
-            this.Price.Location = new System.Drawing.Point(710, 132);
+            this.Price.Location = new System.Drawing.Point(589, 132);
             this.Price.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Price.Name = "Price";
             this.Price.Size = new System.Drawing.Size(46, 20);
@@ -446,7 +463,7 @@ namespace Educational_Practice
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDown1.Location = new System.Drawing.Point(740, 165);
+            this.numericUpDown1.Location = new System.Drawing.Point(619, 165);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             2000000,
             0,
@@ -459,7 +476,7 @@ namespace Educational_Practice
             // numericUpDown2
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDown2.Location = new System.Drawing.Point(873, 165);
+            this.numericUpDown2.Location = new System.Drawing.Point(752, 165);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             2000000,
             0,
@@ -468,12 +485,17 @@ namespace Educational_Practice
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(92, 23);
             this.numericUpDown2.TabIndex = 40;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            2000000,
+            0,
+            0,
+            0});
             // 
             // from
             // 
             this.from.AutoSize = true;
             this.from.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.from.Location = new System.Drawing.Point(710, 168);
+            this.from.Location = new System.Drawing.Point(589, 168);
             this.from.Name = "from";
             this.from.Size = new System.Drawing.Size(24, 20);
             this.from.TabIndex = 41;
@@ -483,7 +505,7 @@ namespace Educational_Practice
             // 
             this.before.AutoSize = true;
             this.before.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.before.Location = new System.Drawing.Point(841, 168);
+            this.before.Location = new System.Drawing.Point(720, 168);
             this.before.Name = "before";
             this.before.Size = new System.Drawing.Size(26, 20);
             this.before.TabIndex = 43;
@@ -493,7 +515,7 @@ namespace Educational_Practice
             // 
             this.Medium.AutoSize = true;
             this.Medium.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Medium.Location = new System.Drawing.Point(841, 772);
+            this.Medium.Location = new System.Drawing.Point(1029, 164);
             this.Medium.Name = "Medium";
             this.Medium.Size = new System.Drawing.Size(71, 19);
             this.Medium.TabIndex = 46;
@@ -504,7 +526,7 @@ namespace Educational_Practice
             // 
             this.Small.AutoSize = true;
             this.Small.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Small.Location = new System.Drawing.Point(721, 772);
+            this.Small.Location = new System.Drawing.Point(909, 164);
             this.Small.Name = "Small";
             this.Small.Size = new System.Drawing.Size(59, 19);
             this.Small.TabIndex = 45;
@@ -514,7 +536,7 @@ namespace Educational_Practice
             // NumberCartridges
             // 
             this.NumberCartridges.AutoSize = true;
-            this.NumberCartridges.Location = new System.Drawing.Point(710, 739);
+            this.NumberCartridges.Location = new System.Drawing.Point(898, 131);
             this.NumberCartridges.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NumberCartridges.Name = "NumberCartridges";
             this.NumberCartridges.Size = new System.Drawing.Size(188, 20);
@@ -525,38 +547,240 @@ namespace Educational_Practice
             // 
             this.Large.AutoSize = true;
             this.Large.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Large.Location = new System.Drawing.Point(721, 797);
+            this.Large.Location = new System.Drawing.Point(909, 189);
             this.Large.Name = "Large";
             this.Large.Size = new System.Drawing.Size(65, 19);
             this.Large.TabIndex = 47;
             this.Large.Text = ">10 шт";
             this.Large.UseVisualStyleBackColor = true;
             // 
-            // Select
+            // Selects
             // 
-            this.Select.Location = new System.Drawing.Point(710, 828);
-            this.Select.Name = "Select";
-            this.Select.Size = new System.Drawing.Size(125, 37);
-            this.Select.TabIndex = 48;
-            this.Select.Text = "Подобрать";
-            this.Select.UseVisualStyleBackColor = true;
+            this.Selects.Location = new System.Drawing.Point(896, 630);
+            this.Selects.Name = "Selects";
+            this.Selects.Size = new System.Drawing.Size(125, 37);
+            this.Selects.TabIndex = 48;
+            this.Selects.Text = "Подобрать";
+            this.Selects.UseVisualStyleBackColor = true;
             // 
             // Reset
             // 
-            this.Reset.Location = new System.Drawing.Point(857, 828);
+            this.Reset.Location = new System.Drawing.Point(1043, 630);
             this.Reset.Name = "Reset";
             this.Reset.Size = new System.Drawing.Size(125, 37);
             this.Reset.TabIndex = 49;
             this.Reset.Text = "Сброс";
             this.Reset.UseVisualStyleBackColor = true;
+            this.Reset.Click += new System.EventHandler(this.Reset_Click);
+            // 
+            // Cloth
+            // 
+            this.Cloth.AutoSize = true;
+            this.Cloth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Cloth.Location = new System.Drawing.Point(1029, 259);
+            this.Cloth.Name = "Cloth";
+            this.Cloth.Size = new System.Drawing.Size(56, 19);
+            this.Cloth.TabIndex = 52;
+            this.Cloth.Text = "ткань";
+            this.Cloth.UseVisualStyleBackColor = true;
+            // 
+            // Paper
+            // 
+            this.Paper.AutoSize = true;
+            this.Paper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Paper.Location = new System.Drawing.Point(909, 259);
+            this.Paper.Name = "Paper";
+            this.Paper.Size = new System.Drawing.Size(65, 19);
+            this.Paper.TabIndex = 51;
+            this.Paper.Text = "бумага";
+            this.Paper.UseVisualStyleBackColor = true;
+            // 
+            // Materials
+            // 
+            this.Materials.AutoSize = true;
+            this.Materials.Location = new System.Drawing.Point(898, 224);
+            this.Materials.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Materials.Name = "Materials";
+            this.Materials.Size = new System.Drawing.Size(93, 20);
+            this.Materials.TabIndex = 50;
+            this.Materials.Text = "Материалы";
+            // 
+            // Products
+            // 
+            this.Products.AutoSize = true;
+            this.Products.Location = new System.Drawing.Point(898, 294);
+            this.Products.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Products.Name = "Products";
+            this.Products.Size = new System.Drawing.Size(91, 20);
+            this.Products.TabIndex = 53;
+            this.Products.Text = "Продукция";
+            // 
+            // OK
+            // 
+            this.OK.AutoSize = true;
+            this.OK.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OK.Location = new System.Drawing.Point(907, 494);
+            this.OK.Name = "OK";
+            this.OK.Size = new System.Drawing.Size(80, 19);
+            this.OK.TabIndex = 62;
+            this.OK.Text = "ОК Принт";
+            this.OK.UseVisualStyleBackColor = true;
+            // 
+            // Nevsky
+            // 
+            this.Nevsky.AutoSize = true;
+            this.Nevsky.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Nevsky.Location = new System.Drawing.Point(907, 444);
+            this.Nevsky.Name = "Nevsky";
+            this.Nevsky.Size = new System.Drawing.Size(115, 19);
+            this.Nevsky.TabIndex = 61;
+            this.Nevsky.Text = "Невский Плакат";
+            this.Nevsky.UseVisualStyleBackColor = true;
+            // 
+            // Raster
+            // 
+            this.Raster.AutoSize = true;
+            this.Raster.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Raster.Location = new System.Drawing.Point(1027, 494);
+            this.Raster.Name = "Raster";
+            this.Raster.Size = new System.Drawing.Size(127, 19);
+            this.Raster.TabIndex = 60;
+            this.Raster.Text = "Типография Растр";
+            this.Raster.UseVisualStyleBackColor = true;
+            // 
+            // Glow
+            // 
+            this.Glow.AutoSize = true;
+            this.Glow.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Glow.Location = new System.Drawing.Point(1027, 444);
+            this.Glow.Name = "Glow";
+            this.Glow.Size = new System.Drawing.Size(123, 19);
+            this.Glow.TabIndex = 59;
+            this.Glow.Text = "Северное Сияние";
+            this.Glow.UseVisualStyleBackColor = true;
+            // 
+            // Graphics
+            // 
+            this.Graphics.AutoSize = true;
+            this.Graphics.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Graphics.Location = new System.Drawing.Point(1027, 469);
+            this.Graphics.Name = "Graphics";
+            this.Graphics.Size = new System.Drawing.Size(109, 19);
+            this.Graphics.TabIndex = 58;
+            this.Graphics.Text = "Графика принт";
+            this.Graphics.UseVisualStyleBackColor = true;
+            // 
+            // RPK
+            // 
+            this.RPK.AutoSize = true;
+            this.RPK.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RPK.Location = new System.Drawing.Point(907, 469);
+            this.RPK.Name = "RPK";
+            this.RPK.Size = new System.Drawing.Size(49, 19);
+            this.RPK.TabIndex = 57;
+            this.RPK.Text = "РПК";
+            this.RPK.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(896, 410);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(111, 20);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "Подключение";
+            // 
+            // Placard
+            // 
+            this.Placard.AutoSize = true;
+            this.Placard.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Placard.Location = new System.Drawing.Point(909, 378);
+            this.Placard.Name = "Placard";
+            this.Placard.Size = new System.Drawing.Size(72, 19);
+            this.Placard.TabIndex = 67;
+            this.Placard.Text = "плакаты";
+            this.Placard.UseVisualStyleBackColor = true;
+            // 
+            // Banners
+            // 
+            this.Banners.AutoSize = true;
+            this.Banners.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Banners.Location = new System.Drawing.Point(909, 328);
+            this.Banners.Name = "Banners";
+            this.Banners.Size = new System.Drawing.Size(68, 19);
+            this.Banners.TabIndex = 66;
+            this.Banners.Text = "банеры";
+            this.Banners.UseVisualStyleBackColor = true;
+            // 
+            // Drawings
+            // 
+            this.Drawings.AutoSize = true;
+            this.Drawings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Drawings.Location = new System.Drawing.Point(1029, 328);
+            this.Drawings.Name = "Drawings";
+            this.Drawings.Size = new System.Drawing.Size(73, 19);
+            this.Drawings.TabIndex = 65;
+            this.Drawings.Text = "чертежи";
+            this.Drawings.UseVisualStyleBackColor = true;
+            // 
+            // Tshirts
+            // 
+            this.Tshirts.AutoSize = true;
+            this.Tshirts.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Tshirts.Location = new System.Drawing.Point(1029, 378);
+            this.Tshirts.Name = "Tshirts";
+            this.Tshirts.Size = new System.Drawing.Size(80, 19);
+            this.Tshirts.TabIndex = 64;
+            this.Tshirts.Text = "футболки";
+            this.Tshirts.UseVisualStyleBackColor = true;
+            // 
+            // Flags
+            // 
+            this.Flags.AutoSize = true;
+            this.Flags.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Flags.Location = new System.Drawing.Point(1029, 353);
+            this.Flags.Name = "Flags";
+            this.Flags.Size = new System.Drawing.Size(60, 19);
+            this.Flags.TabIndex = 63;
+            this.Flags.Text = "флаги";
+            this.Flags.UseVisualStyleBackColor = true;
+            // 
+            // Posters
+            // 
+            this.Posters.AutoSize = true;
+            this.Posters.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Posters.Location = new System.Drawing.Point(909, 353);
+            this.Posters.Name = "Posters";
+            this.Posters.Size = new System.Drawing.Size(66, 19);
+            this.Posters.TabIndex = 68;
+            this.Posters.Text = "афиши";
+            this.Posters.UseVisualStyleBackColor = true;
             // 
             // Format
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1039, 877);
+            this.ClientSize = new System.Drawing.Size(1200, 679);
+            this.Controls.Add(this.Posters);
+            this.Controls.Add(this.Placard);
+            this.Controls.Add(this.Banners);
+            this.Controls.Add(this.Drawings);
+            this.Controls.Add(this.Tshirts);
+            this.Controls.Add(this.Flags);
+            this.Controls.Add(this.OK);
+            this.Controls.Add(this.Nevsky);
+            this.Controls.Add(this.Raster);
+            this.Controls.Add(this.Glow);
+            this.Controls.Add(this.Graphics);
+            this.Controls.Add(this.RPK);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Products);
+            this.Controls.Add(this.Cloth);
+            this.Controls.Add(this.Paper);
+            this.Controls.Add(this.Materials);
             this.Controls.Add(this.Reset);
-            this.Controls.Add(this.Select);
+            this.Controls.Add(this.Selects);
             this.Controls.Add(this.Large);
             this.Controls.Add(this.Medium);
             this.Controls.Add(this.Small);
@@ -576,7 +800,7 @@ namespace Educational_Practice
             this.Controls.Add(this.Sheet);
             this.Controls.Add(this.Roll);
             this.Controls.Add(this.Print);
-            this.Controls.Add(this.more);
+            this.Controls.Add(this.More);
             this.Controls.Add(this.Less);
             this.Controls.Add(this.MaxRollDiameter);
             this.Controls.Add(this.Monochrome);
@@ -633,7 +857,7 @@ namespace Educational_Practice
         private System.Windows.Forms.CheckBox Color;
         private System.Windows.Forms.Label Chroma;
         private System.Windows.Forms.Label MaxRollDiameter;
-        private System.Windows.Forms.CheckBox more;
+        private System.Windows.Forms.CheckBox More;
         private System.Windows.Forms.CheckBox Less;
         private System.Windows.Forms.CheckBox Sheet;
         private System.Windows.Forms.CheckBox Roll;
@@ -654,8 +878,25 @@ namespace Educational_Practice
         private System.Windows.Forms.CheckBox Small;
         private System.Windows.Forms.Label NumberCartridges;
         private System.Windows.Forms.CheckBox Large;
-        private System.Windows.Forms.Button Select;
+        private System.Windows.Forms.Button Selects;
         private System.Windows.Forms.Button Reset;
+        private System.Windows.Forms.CheckBox Cloth;
+        private System.Windows.Forms.CheckBox Paper;
+        private System.Windows.Forms.Label Materials;
+        private System.Windows.Forms.Label Products;
+        private System.Windows.Forms.CheckBox OK;
+        private System.Windows.Forms.CheckBox Nevsky;
+        private System.Windows.Forms.CheckBox Raster;
+        private System.Windows.Forms.CheckBox Glow;
+        private System.Windows.Forms.CheckBox Graphics;
+        private System.Windows.Forms.CheckBox RPK;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox Placard;
+        private System.Windows.Forms.CheckBox Banners;
+        private System.Windows.Forms.CheckBox Drawings;
+        private System.Windows.Forms.CheckBox Tshirts;
+        private System.Windows.Forms.CheckBox Flags;
+        private System.Windows.Forms.CheckBox Posters;
     }
 }
 
